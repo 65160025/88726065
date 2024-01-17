@@ -64,3 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // แสดงรายการ Todo คร้ังแรก
     renderTodoList();
     });
+
+
+//addTodo: ในการเพิ่มรายการ Todo ใหม่ลงในอาร์เรย์ todos และเรียกใช้ renderTodoList เพื่อแสดงรายการใหม่
+//deleteTodo: ในการลบรายการ Todo จากอาร์เรย์ todos ด้วย index ที่ระบุ และเรียกใช้ renderTodoList เพื่อแสดงรายการใหม่.
+//toggleComplete: ในการเปลี่ยนสถานะการเสร็จสิ้นหรือยกเลิกการเสร็จสิ้นของรายการ Todo ด้วย index ที่ระบุ และเรียกใช้ renderTodoList เพื่อแสดงรายการใหม่.
+//renderTodoList: ในการแสดงรายการ Todo บนหน้าเว็บ, พร้อมทั้งตรวจสอบว่ารายการไหนที่เสร็จสิ้นแล้วและเพิ่ม class "completed" ให้กับรายการนั้น. 
