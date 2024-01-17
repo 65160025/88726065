@@ -5,12 +5,12 @@ body {
     background-color: #f8f8f8;
     }
     h1 {
-    color: #333;
-    font-size: 24px;
-    background-color: #bbffb2;
+    color: #330353;
+    font-size: 30px;
+    background-color: #cf8ec7;
     padding: 15px;
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: rgba(53, 4, 77, 0.596);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -19,7 +19,7 @@ body {
     padding: 0;
     }
     li {
-    background-color: #fff;
+    background-color: #e4debd;
     
     padding: 15px;
     margin: 10px 0;
@@ -44,7 +44,7 @@ body {
     }
     button {
     padding: 12px 24px;
-    background-color: #ffaced;
+    background-color: #1455a0;
     color: white;
     border: none;
     border-radius: 8px;
@@ -52,5 +52,5 @@ body {
     transition: background-color 0.3s;
     }
     button:hover {
-    background-color: #0056b3;
+    background-color: #ff0000;
     }
